@@ -7,7 +7,7 @@ USE ks_user22;
 CREATE TABLE info_card (
 Event_ID int PRIMARY KEY,
 Fight_ID int,
-Date int, // RIVEDI TIPO
+Date date,
 Name text,
 ID int,
 corner text
@@ -19,7 +19,7 @@ CREATE TABLE info_fight (
 Fight_ID int,
 ID int,
 Event_ID int,
-Date int, // RIVEDI TIPO
+Date date,
 winner text,
 winby text,
 corner text,
@@ -38,7 +38,7 @@ PRIMARY KEY (Fight_ID, ID)
 CREATE TABLE info_fighter_general (
 ID int,
 Age int,
-Date int, // RIVEDI TIPO
+Date date,
 Height int,
 Weight int,
 Prev int,
