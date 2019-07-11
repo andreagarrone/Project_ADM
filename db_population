@@ -1,0 +1,6 @@
+COPY info_card FROM '/home/user22/info_card.csv' WITH HEADER = true;
+COPY info_fight FROM '/home/user22/info_fight.csv' WITH HEADER = true;
+COPY info_fighter_general FROM '/home/user22/info_fighter_general.csv' WITH HEADER = true;
+COPY info_fighter_statistics_grappling FROM '/home/user22/info_fighter_statistics_grappling.csv' WITH HEADER = true;
+COPY info_fighter_statistics_strikes_small FROM '/home/user22/info_fighter_statistics_strikes_small.csv' WITH HEADER = true;
+COPY info_fighter_statistics_tip FROM '/home/user22/info_fighter_statistics_tip.csv' WITH HEADER = true;
